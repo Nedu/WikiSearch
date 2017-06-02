@@ -39,9 +39,7 @@ button {
 	background-color: #d05959;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    border-radius:6px;
     color: #fff;
-    font-family: 'Oswald';
     font-size: 20px;
     text-decoration: none;
     cursor: pointer;
@@ -52,12 +50,7 @@ button {
     padding: 5px 15px;
 }
 
-button a {
-	text-decoration: none;
-	color: #fff;
-}
-
-button:hover {
+button:hover, a:hover {
     border: none;
     background: #f11a1a;
     box-shadow: 0px 0px 1px #777;
@@ -72,4 +65,19 @@ h2 {
 p{
 	font-size: 1rem;
 	color: #333;
+}
+
+a {
+    background-color: #d05959;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    border:none;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 5px 15px;
 }
