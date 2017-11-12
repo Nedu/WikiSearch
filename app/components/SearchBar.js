@@ -34,7 +34,7 @@ class SearchBar extends React.Component {
 				<form onSubmit={this.handleSubmit}>
 					<input id="searchbox" type="text" placeholder="Enter a term to search!" onChange={this.handleInput} value={this.state.searchTerm}/><br />
 					<button type="submit" value="Submit"><FontAwesome name='search' /> Search</button>
-					<a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank"><FontAwesome name='random'  /> Random Article</a>
+					<a href="http://en.wikipedia.org/wiki/Special:Random" id="random" target="_blank"><FontAwesome name='random'  /> Random Article</a>
 				</form>
 			</div>
 		);
