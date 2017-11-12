@@ -1,4 +1,4 @@
-# Wiki Viewer
+# WikiSearch
 
 This is a Wikipedia viewer app which enables the user to search Wikipedia entries in a search box and see the resulting Wikipedia entries. They can also click a button to see a random Wikipedia entry.
 
